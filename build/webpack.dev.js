@@ -21,7 +21,8 @@ module.exports = {
         test: /\.js$/,
         include: [path.resolve(rootDir, "src")],
         loader: [
-          "babel-loader?cacheDirectory"
+          "babel-loader?cacheDirectory",
+          "eslint-loader"
         ],
       },
       {

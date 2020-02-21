@@ -22,5 +22,8 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "eqeqeq": 2,//必须使用全等
+        "init-declarations": 1,//声明时必须赋初值
+        "prefer-const": 1,//首选const
     }
 };
