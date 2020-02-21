@@ -20,7 +20,9 @@ module.exports = {
       {
         test: /\.js$/,
         include: [path.resolve(rootDir, "src")],
-        loader: "babel-loader?cacheDirectory",
+        loader: [
+          "babel-loader?cacheDirectory"
+        ],
       },
       {
         test: /\.(css|less)$/,
