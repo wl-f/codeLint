@@ -1,17 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-
-  const a=1,b=2;
-  if (a===b) {
-    console.log(a)
+  const a = 1,
+    b = 2;
+  if (a === b) {
+    console.log(a, b);
   }
-
-
-
-
 
   return (
     <div className="App">
